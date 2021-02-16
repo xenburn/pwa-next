@@ -1,5 +1,8 @@
 import styles from '../styles/Home.module.css'
 
+import * as bn from '../node_modules/bionode-vcf/lib/index'
+console.log(bn)
+
 export default function Home() {
   return (
     <div className={styles.container}>
